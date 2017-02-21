@@ -1,6 +1,6 @@
 @import 'settings';
 @import 'foundation-emails';
-
+@import 'foundation-icons.css';
 @import 'template/template';
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 .topBannerText, .mainImgText, .muvBar1, .muvBar2, .muvBar3, .muvBar4, table.button table td a {
@@ -70,4 +70,25 @@
 .mainButtons {
   display: inline;
   padding: 10px;
+}
+
+.pdxMonthlyPic {
+  display: inline;
+  padding-top: 16px;
+}
+
+.optionsMenu {
+  background-color: #ffffff;
+  border-bottom: solid 2px #7ac142;
+  border-top: solid 2px #7ac142;
+}
+
+th.menu-item a span {
+  color: black;
+  font-size: 12px;
+}
+
+.contactMenu a {
+  font-size: 12px;
+  color: black !important;
 }
