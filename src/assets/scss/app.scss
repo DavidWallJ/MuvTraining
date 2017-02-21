@@ -1,0 +1,69 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.muvFont {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.mainImgText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+  }
+
+
+.gray {
+  background: gray;
+}
+
+.muvBar1, .muvBar2, .muvBar3, .muvBar4 {
+  color: #ffffff;
+  font-size: 17px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bolder;
+
+
+}
+
+.muvBar4 {
+  background: url('https://muvtraining.com/wp-content/uploads/2017/01/home-program-yoga.jpg');
+  background-size: 100%;
+  background-position: center;
+}
+
+.muvBar3 {
+  background: url('https://muvtraining.com/wp-content/uploads/2017/01/home-program-barre.jpg');
+  background-size: 100%;
+  background-position: top;
+}
+
+.muvBar2 {
+  background: url('https://muvtraining.com/wp-content/uploads/2017/01/home-program-cycle.jpg');
+  background-size: 100%;
+  background-position: bottom;
+}
+
+.muvBar1 {
+  background: url('https://muvtraining.com/wp-content/uploads/2017/01/home-program-strength.jpg');
+  background-size: 100%;
+  background-position: top;
+}
+
+.multi_bg {
+  width: 100%;
+  height: 400px;
+  -webkit-background-size: auto, cover;
+  background-size: auto, cover;
+  background-image: url("https://muvtraining.com/wp-content/themes/salient/img/textures/grid.png"), url("https://muvtraining.com/wp-content/uploads/2016/09/trx-2.jpg");
+  background-repeat: repeat, no-repeat;
+}
+
+.topBanner {
+  padding: 0 50px;
+}
